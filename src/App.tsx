@@ -1,9 +1,16 @@
 import './App.css'
+import Modal from './Modal';
 
 function App() {
   return (
     <div>
-      Hello
+      <button
+        style={{ margin: "10px" }}
+        >
+        Show Modal
+      </button>
+
+      <Modal />
     </div>
   );
 }
