@@ -1,6 +1,10 @@
 import "./Modal.css";
 
 export default function Modal(props: any) {
+  if(!props.show) {
+    return null;
+  }
+
   return(
     <div className="modal">
       <div className="modal-content">

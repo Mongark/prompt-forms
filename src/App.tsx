@@ -10,7 +10,7 @@ function App() {
         Show Modal
       </button>
 
-      <Modal />
+      <Modal show={true}/>
     </div>
   );
 }
